@@ -8,7 +8,6 @@ import javax.persistence.Id;
 import org.springframework.stereotype.Component;
 
 @Entity
-@Component
 public class Employee {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
